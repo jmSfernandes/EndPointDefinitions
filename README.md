@@ -1,4 +1,7 @@
 # EndPointDefinitions
+[![Nuget badge](https://img.shields.io/nuget/v/MinimalApi.EndPointDefinitions)](https://www.nuget.org/packages/MinimalApi.EndPointDefinitions/1.0.0)
+[![Nuget badge](https://img.shields.io/nuget/dt/MinimalApi.EndPointDefinitions)](https://www.nuget.org/packages/MinimalApi.EndPointDefinitions/1.0.0)
+
 
 A library to enable the easy definition of endpoints with .NET6 minimal API projects.
 
