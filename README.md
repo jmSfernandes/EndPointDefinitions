@@ -34,13 +34,22 @@ public class WeatherEndpoint : IEndpointDefinition
 ```
 
 To define an Endpoint you need to implement the `IEndpointDefinition` interface, and override both of the methods showed.
+
 You do not need to use Services, you can define the GetWeatherForecast as a lambda or a extracted method within the Endpoint Class.
-The example serves only to show that it is possible to use services and dependency injection with the library.
-You can check the example [project](https://github.com/jmSfernandes/ExampleEndpointDefinitions) to see the full implementation.
+
+The example serves only to show that it is possible to use services and dependency injection with the library. 
+
+And you have full control to still define your services lifecycle.
+
+**You can check the full example [project](https://github.com/jmSfernandes/ExampleEndpointDefinitions) to see the full implementation**.
+
 
 Then you only need to call the `Services.AddAllEndpointDefinitions` or the `Services.AddEndpointDefinition(Type type)` to define the 
 endpoints. 
+
 And the `app.UseEndpointDefinitions()` to start the Endpoints.
+
+As shown here:
 
 ```C#
 
