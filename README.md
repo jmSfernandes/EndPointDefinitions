@@ -3,7 +3,7 @@
 [![Nuget badge](https://img.shields.io/nuget/dt/MinimalApi.EndPointDefinitions)](https://www.nuget.org/packages/MinimalApi.EndPointDefinitions/1.0.0)
 
 
-A library to enable the easy definition of endpoints with .NET6 minimal API projects.
+A library to enable the easy definition of endpoints with .NET8 minimal API projects.
 
 To use import the project from [nuget](https://www.nuget.org/packages/MinimalApi.EndPointDefinitions/1.0.0).
 
