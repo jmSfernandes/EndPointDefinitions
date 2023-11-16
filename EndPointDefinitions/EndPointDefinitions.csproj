@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
@@ -16,6 +15,9 @@
         <!--PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl-->
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <Authors>jmSfernandes</Authors>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
     </PropertyGroup>
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 </Project>
